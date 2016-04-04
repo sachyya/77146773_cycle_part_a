@@ -1,1 +1,10 @@
 c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\bin\Debug\77146773_cycle_part_a.exe.config
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\bin\Debug\77146773_cycle_part_a.exe
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\bin\Debug\77146773_cycle_part_a.pdb
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\_77146773_cycle_part_a.Form1.resources
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\_77146773_cycle_part_a.Properties.Resources.resources
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\77146773_cycle_part_a.csproj.GenerateResource.Cache
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\77146773_cycle_part_a.exe
+c:\users\sagar\documents\visual studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\77146773_cycle_part_a.pdb
+C:\Users\Sagar\Documents\Visual Studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\bin\Debug\ZedGraph.dll
+C:\Users\Sagar\Documents\Visual Studio 2013\Projects\77146773_cycle_part_a\77146773_cycle_part_a\obj\Debug\77146773_cycle_part_a.csprojResolveAssemblyReference.cache
