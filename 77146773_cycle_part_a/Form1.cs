@@ -497,7 +497,7 @@ namespace _77146773_cycle_part_a
                 IPointListEdit list14 = curve4.Points as IPointListEdit;
                 list14.Add(x, y4);
                 LineItem curve5 = sachyya.GraphPane.CurveList["PWR"] as LineItem;
-                // Get the PointPairList
+                // Get the PointPairLists
                 IPointListEdit list15 = curve5.Points as IPointListEdit;
                 list15.Add(x, y5);
 
