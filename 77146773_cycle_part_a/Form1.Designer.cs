@@ -96,6 +96,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.buttonShowPartB = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -817,11 +818,23 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Version";
             // 
+            // buttonShowPartB
+            // 
+            this.buttonShowPartB.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonShowPartB.Location = new System.Drawing.Point(910, 199);
+            this.buttonShowPartB.Name = "buttonShowPartB";
+            this.buttonShowPartB.Size = new System.Drawing.Size(411, 221);
+            this.buttonShowPartB.TabIndex = 15;
+            this.buttonShowPartB.Text = "SHOW PART 2";
+            this.buttonShowPartB.UseVisualStyleBackColor = false;
+            this.buttonShowPartB.Click += new System.EventHandler(this.buttonShowPartB_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.ClientSize = new System.Drawing.Size(1354, 741);
+            this.Controls.Add(this.buttonShowPartB);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.sachyyaBox5);
             this.Controls.Add(this.sachyyaBox4);
@@ -913,6 +926,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Button buttonShowPartB;
     }
 }
 

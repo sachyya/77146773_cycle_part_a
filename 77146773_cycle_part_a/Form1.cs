@@ -380,7 +380,6 @@ namespace _77146773_cycle_part_a
             }
         }
 
-
         private void SetText2(string text)
         {
 
@@ -423,16 +422,11 @@ namespace _77146773_cycle_part_a
             }
         }
 
-
-
         private void CreateGraph()
         {
-
             myPane.Title.Text = "My Graph";
             myPane.XAxis.Title.Text = "My X Axis(LINE NUM)";
             myPane.YAxis.Title.Text = "My Y Axis(HR, SPD, CAD, ALT, PWR)";
-
-
 
             string txtData = File.ReadAllText("ASDBExampleCycleComputerData.hrm");
             string[] arrData = txtData.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
@@ -443,8 +437,6 @@ namespace _77146773_cycle_part_a
             ARRALT = new string[arrData.Length - index2];
             ARRPWR = new string[arrData.Length - index2];
             int j = 0;
-
-
 
             // Make up some, data arrays based on the Sine function
             double x, y1, y2, y3, y4, y5;
@@ -459,7 +451,6 @@ namespace _77146773_cycle_part_a
                 string HRData = arrData[i];
 
                 string[] arrHrdata = Regex.Split(HRData, @"\W+");
-
 
                 ARRHR[j] = arrHrdata[0];
                 ARRSPD[j] = arrHrdata[1];
@@ -478,7 +469,6 @@ namespace _77146773_cycle_part_a
                 y3 = c;
                 y4 = d;
                 y5 = e;
-
 
                 LineItem curve = sachyya.GraphPane.CurveList["HR"] as LineItem;
                 // Get the PointPairList
@@ -504,12 +494,7 @@ namespace _77146773_cycle_part_a
 
                 axisChangeZedGraph(sachyya);
                 Thread.Sleep(700);
-
-
             }
-
-
-
         }
 
         private void sachyyaBox1_CheckedChanged(object sender, EventArgs e)
@@ -768,6 +753,10 @@ namespace _77146773_cycle_part_a
             }
         }
 
-
+        private void buttonShowPartB_Click(object sender, EventArgs e)
+        {
+            Form3 obj = new Form3();
+            obj.Show();
+        }
     }
 }
